@@ -1,0 +1,16 @@
+/* navbar responsive start */
+
+@media all and (max-width:577px) {
+    .nav-right {
+        display: none;
+    }
+}
+
+@media all and (min-width:578px) {
+    .nav-img-hide {
+        display: none;
+    }
+}
+
+
+/* navbar responsive end */

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -73,3 +74,78 @@ nav {
 
 
 /* navbar style end */
+
+
+/* banner style start */
+
+.banner-container {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.banner {
+    display: flex;
+}
+
+.banner-left {
+    /* border: 1px solid red; */
+    width: 70%;
+    /* margin-left: 340px; */
+    /* margin-top: 96px; */
+}
+
+.banner-left-title {
+    font-size: 78px;
+    font-weight: 900;
+    color: white;
+}
+
+.banner-left-shape {
+    font-family: "Qwitcher Grypen", cursive;
+    font-size: 100px;
+    font-weight: 900;
+}
+
+.banner-left-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 28px;
+}
+
+.banner-left-btn {
+    margin-top: 28px;
+}
+
+.banner-left-btn1 {
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    padding: 16px 40px 16px 40px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.banner-left-btn2 {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    padding: 16px 40px 16px 40px;
+    background: black;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.banner-right {
+    height: 580px;
+    /* border: 1px solid red; */
+    width: 30%;
+    background-image: url("../images/images 2.png");
+    background-repeat: no-repeat;
+    /* margin-left: 550px; */
+}
+
+.banner-righ-img {}
+
+
+/* banner style END */
