@@ -117,7 +117,8 @@ nav {
     margin-top: 28px;
 }
 
-.banner-left-btn1 {
+.banner-left-btn1,
+.btn-mile {
     border-radius: 42px;
     background: rgb(230, 83, 60);
     padding: 16px 40px 16px 40px;
@@ -211,7 +212,8 @@ main {
 
 .habbit-right {
     display: flex;
-    margin-top: 120px;
+    margin-top: 110px;
+    margin-bottom: 40px;
     /* border: 1px solid red; */
 }
 
@@ -243,3 +245,58 @@ main {
 
 
 /* Change Your Habits style end */
+
+
+/* run and extra mile style  start */
+
+.run-and-extra-mile {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.runextra {
+    width: 1060px;
+    height: 371px;
+    color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    margin: 62px 0px;
+}
+
+.runextra-left {
+    margin-left: 54px;
+    margin-right: 165px;
+}
+
+.runextra-left-title {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 14px 0px;
+}
+
+.runextra-left-descrip {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 14px 0px;
+}
+
+.runextra-left-btn {
+    margin-top: 34px;
+}
+
+.runextra-right {}
+
+.runextra-right>img {
+    width: 366px;
+    height: 312px;
+    border-radius: 18px;
+}
+
+
+/* run and extra mile style  end */
