@@ -147,5 +147,99 @@ nav {
 
 .banner-righ-img {}
 
+.special {}
+
+.special1 {
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    width: 206px;
+    height: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.special2 {
+    /* box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1); */
+    width: 193px;
+    height: 98px;
+    border: 1px solid red;
+}
+
 
 /* banner style END */
+
+
+/* Change Your Habits style start */
+
+main {
+    background: black;
+}
+
+.habbit-container {
+    width: 65%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+.habbit-left {
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+.habbit-left-title {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 14px 0px;
+    color: white;
+}
+
+.habbit-left-description {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 14px 0px;
+    opacity: 0.7;
+    color: white;
+}
+
+.habbit-right {
+    display: flex;
+    margin-top: 120px;
+    /* border: 1px solid red; */
+}
+
+.habbit-card {
+    /* border: 1px solid green; */
+    width: 231px;
+    height: 274px;
+    margin: 0px 40px;
+    text-align: center;
+    color: white;
+}
+
+.habbit-card-img {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+
+.habbit-card-title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.habbit-card-descrip {
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.5;
+}
+
+
+/* Change Your Habits style end */
