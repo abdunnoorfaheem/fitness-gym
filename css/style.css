@@ -118,7 +118,8 @@ nav {
 }
 
 .banner-left-btn1,
-.btn-mile {
+.btn-mile,
+.calculate-btn {
     border-radius: 42px;
     background: rgb(230, 83, 60);
     padding: 16px 40px 16px 40px;
@@ -300,3 +301,98 @@ main {
 
 
 /* run and extra mile style  end */
+
+
+/* bmi calculator section style start */
+
+.bmi-calculator {
+    /* border: 1px solid white; */
+    width: 50%;
+    margin: 0 auto;
+}
+
+.bmi-cal {
+    height: 120px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.bmi-cal-title {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 14px 0px;
+}
+
+.bmi-cal-descrip {
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.5;
+}
+
+.bmi-calculate {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.bmi-calculation {
+    background: rgb(34, 34, 34);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 487px;
+}
+
+.bmi-chart {
+    width: 25%;
+}
+
+.bmi-chart-title {
+    font-size: 28px;
+    font-weight: 900;
+    margin: 14px 0px;
+}
+
+table,
+tr,
+th,
+td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    text-align: left;
+    padding: 10px 20px;
+    opacity: 0.8;
+    margin-top: 30px;
+}
+
+.bmi-chart-right {
+    width: 40%;
+}
+
+.bmi-chart-right-title {
+    font-size: 28px;
+    font-weight: 900;
+    margin: 14px 0px;
+}
+
+.bmi-chart-right-descrip {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 14px 0px;
+    opacity: 0.5;
+}
+
+.form-info {
+    width: 282.5px;
+    height: 48px;
+    padding: 12px 40px 12px 20px;
+    margin: 4px 0px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+
+/* bmi calculator section style end */
