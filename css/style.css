@@ -175,6 +175,28 @@ nav {
     border: 1px solid red;
 }
 
+.special-btn-1 {
+    position: relative;
+    top: -140px;
+    left: 1150px;
+    background: rgba(48, 48, 48, 0.54);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.special-btn-2 {
+    position: relative;
+    top: -470px;
+    left: 1450px;
+    background: rgba(48, 48, 48, 0.54);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 10px;
+}
+
 
 /* banner style END */
 
@@ -429,6 +451,7 @@ select {
 .gym-sec-left-descrip {
     font-size: 18px;
     font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .join {
