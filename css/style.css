@@ -417,7 +417,9 @@ select {
     background: black;
 }
 
-.meetTop {}
+.meetTop {
+    margin-bottom: 25px;
+}
 
 .meetTop-container {
     text-align: center;
@@ -457,3 +459,70 @@ select {
 
 
 /*  meet out team style end */
+
+
+/* footer style start */
+
+footer {
+    background-color: rgba(0, 0, 0, 0.801);
+}
+
+.footer-top {
+    width: 1059px;
+    height: 249px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-top-one {
+    width: 443px;
+    height: 176px;
+}
+
+.footer-top-one-title {
+    color: rgb(230, 83, 60);
+    margin: 20px 0px;
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.footer-top-one-descrip {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-top-two {
+    width: 181px;
+    height: 249px;
+}
+
+.footer-top-two-title,
+.footer-top-three-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    margin: 15px 0px;
+}
+
+.footer-top-two-info,
+.footer-top-three-info {
+    font-size: 23px;
+    font-weight: 400;
+    margin: 10px 10px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-top-three {
+    width: 181px;
+    height: 249px;
+}
+
+.footer-bottom {
+    margin-top: 30px;
+}
+
+
+/* footer style end */
