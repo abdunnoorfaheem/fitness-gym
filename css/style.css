@@ -410,11 +410,62 @@ select {
 
 /* bmi calculator section style end */
 
+.gym-sec {
+    height: 225px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgba(34, 34, 34, 0.747);
+    color: white;
+}
+
+.gym-sec-left {}
+
+.gym-sec-left-title {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.gym-sec-left-descrip {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.join {
+    width: 224px;
+    height: 54px;
+    padding: 16px 40px 16px 40px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: none;
+    color: white;
+    font-size: 21px;
+}
+
+.join:hover {
+    width: 254px;
+    height: 84px;
+    padding: 16px 40px 16px 40px;
+    border-radius: 32px;
+    background: rgb(230, 83, 60);
+    border: none;
+    color: white;
+    font-size: 27px;
+    border: 2px solid white;
+}
+
+
+/* join gym section style start */
+
+
+/* join gym section style end */
+
 
 /*  meet out team style start */
 
 .meet {
     background: black;
+    padding-bottom: 30px;
 }
 
 .meetTop {
@@ -436,6 +487,8 @@ select {
     font-weight: 400;
     margin: 24px 0px;
 }
+
+.meetbottom-container {}
 
 .meetbottom {
     margin: 0 auto;
@@ -465,6 +518,7 @@ select {
 
 footer {
     background-color: rgba(0, 0, 0, 0.801);
+    padding-bottom: 30px;
 }
 
 .footer-top {
