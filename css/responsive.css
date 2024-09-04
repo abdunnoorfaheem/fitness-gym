@@ -1,9 +1,38 @@
-/* navbar responsive start */
-
 @media all and (max-width:577px) {
     .nav-right {
         display: none;
+        /* }
+    .banner-container {
+        width: 100%;
+        margin: 0 auto;
     }
+    .banner {
+        display: block;
+    }
+    .habbit-right {
+        display: block;
+        /* flex-direction: column; */
+    }
+    /* .runextra {
+        display: block;
+        width: 353px;
+        height: 531px;
+    }
+    .run-and-extra-mile {}
+    .runextra-left-title {
+        font-size: 32px;
+        font-weight: 900;
+        width: 287px;
+        height: 76px;
+    }
+    .runextra-left-descrip {
+        font-size: 14px;
+        font-weight: 400;
+        width: 287px;
+        height: 96px;
+    }
+    */
+    */
 }
 
 @media all and (min-width:578px) {
@@ -11,6 +40,3 @@
         display: none;
     }
 }
-
-
-/* navbar responsive end */
